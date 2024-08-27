@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lenovo</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4d4d4d;
+            color: #fff;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            gap: 1rem;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+        }
+        .logo-container {
+            text-align: center;
+        }
+        .logo {
+            width: 200px;
+            height: auto;
+        }
+        .cards-container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+            padding: 1rem;
+            justify-content: center;
+        }
+        .card {
+            background-color: #f4f4f4;
+            border: 1px solid #4d4d4d;
+            border-radius: 5px;
+            width: calc(100% / 6 - 1rem);
+            box-sizing: border-box;
+            padding: 1rem;
+            text-align: center;
+        }
+        .card img {
+            max-width: 100%;
+            border-radius: 6px;
+        }
+        .card h3 {
+            margin: 0.5rem 0;
+        }
+        .card p {
+            margin: 0.5rem 0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 0.5rem 1rem;
+            background-color: #064c96;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #4d4d4d;
+            color: #fff;
+            padding: 1rem;
+            text-align: center;
+        }
+        .social-media a {
+            color: #fff;
+            margin: 0 0.5rem;
+            text-decoration: none;
+        }
+            @media (max-width: 768px) {
+        .card {
+            width: calc(50% - 1rem);
+            }
+        }
+            @media (max-width: 480px) {
+        .card {
+            width: calc(100% - 1rem);
+            }
+        }
+    </style>
+</head>
+<header>
+    <div class="logo-container">
+        <a href="https://lenovocol.com/" target="_blank">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Branding_lenovo-logo_lenovologoposred_low_res.png/1200px-Branding_lenovo-logo_lenovologoposred_low_res.png" alt="Logo de la Empresa" class="logo">
+        </a>
+    </div>
+</header>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="https://lenovocol.com/categoria-producto/pctablets/">PC & TABLETS</a></li>
+                <li><a href="https://lenovocol.com/categoria-producto/celulares/">CELULARES</a></li>
+                <li><a href="https://lenovocol.com/lenovo-servidores/">SERVIDORES</a></li>
+                <li><a href="https://lenovocol.com/nuestra-empresa/">NUESTRA EMPRESA</a></li>
+                <li><a href="https://support.lenovo.com/co/es/">SOPORTE</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="cards-container">
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/IdeaPad-5-2-en-1-14-9na-Gen-Luna-Grey1-4.webp" alt="Imagen Producto 1">
+                <h3>IdeaPad 5 2-en-1 14 9na Gen – Luna Grey</h3>
+                <p>Descripción:<p>
+                </p>Procesador: AMD Ryzen™ 5 8645HS (4,30 GHz hasta 5,00 GHz)
+                Sistema operativo: Windows 11 Home Single Language 64
+                Tarjeta gráfica: Gráficos AMD Radeon™ 760M integrados
+                Memoria total: 16 GB LPDDR5X-6400MHz (soldado)
+                Unidad de disco primaria: 512 GB SSD M.2 2242 PCIe Gen4 TLC
+                Tipo de pantalla: 14″ WUXGA (1920 x 1200), IPS, brillante, táctil, 45%NTSC, 300 nits, 60 Hz, vidrio
+                Cámara: 1080P FHD con micrófono doble y obturador para privacidad
+                Batería: Polímero de litio de 3 celdas 57 Wh
+                Fuente de alimentación: 65W
+                Características de seguridad: Lector de huellas digitales
+                Dispositivo de Puntero: ClickPad + Lápiz digital Lenovo sin batería
+                Keyboard: Retroiluminado, gris tormenta – Español
+                Teclado: Retroiluminado, gris tormenta – Español
+                Red inalámbrica: Wi-Fi 6E 2×2 AX & Bluetooth® 5.1 o superior
+                Garantía: 1 año PremiumCare
+                Color: Luna Grey</p>
+                <a href="https://lenovocol.com/producto/ideapad-5-2-en-1-14-9na-gen-luna-grey/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/Lenovo-ThinkPad-X1-Yoga-8va-Ge1.webp" alt="Imagen Producto 2">
+                <h3>ThinkPad X1 Yoga 8va Gen - Storm Grey</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ i7-1355U de 13ᵃ Generación (núcleos E de hasta 3,70 GHz núcleos P de hasta 5,00 GHz).
+                Sistema operativo: Windows 11 Pro 64.
+                Tarjeta gráfica: Gráficos Intel® Iris® Xe integrados.
+                Memoria total: 16 GB LPDDR5-6400MHz (soldado).
+                Unidad de disco primaria: 1 TB SSD M.2 2280 PCIe Gen4 rendimiento de TLC Opal.
+                Tipo de pantalla: 14″ WUXGA (1920 x 1200), IPS, antirreflectante, táctil,100%sRGB, 400 nits, 60 Hz, retroiluminación LED, marco biselado fino, luz azul baja.
+                Cámara: 1080P FHD RGB con obturador para privacidad y micrófono de matriz doble.
+                Batería: Polímero de litio de 4 celdas 57 Wh.
+                Fuente de alimentación: 65W.
+                Pen: Lenovo Integrated Pen.
+                Características de seguridad: Lector de huellas digitales.
+                Dispositivo de Puntero : Lenovo Integrated Pen + ClickPad.
+                Teclado: Retroiluminado, gris – Español (LA).
+                Red inalámbrica : Intel® Wi-Fi 6E AX211 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía : 3 años.
+                Color : Storm Grey.</p>
+                <a href="https://lenovocol.com/producto/thinkpad-x1-yoga-8va-gen-storm-grey/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/ThinkBook-14-2-en-1-4ta-Gen-Luna-Grey-Intel5-3.webp" alt="Imagen Producto 3">
+                <h3>ThinkBook 14 2-en-1 4ta Gen – Luna Grey</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ Ultra 7 155U (núcleos E de hasta 3,80 GHz núcleos P de hasta 4,80 GHz).
+                Sistema operativo: Windows 11 Pro 64.
+                Tarjeta gráfica: Gráficos Intel® integrados.
+                Memoria total: 16 GB DDR5-5600MHz (SODIMM) – (2 x 8 GB).
+                Unidad de disco primaria: 1 TB SSD M.2 2242 PCIe Gen4 TLC.
+                Tipo de pantalla: 14″ WUXGA (1920 x 1200), IPS, Glare, Touch, 100%sRGB, 300 nits, 60Hz, Glass.
+                Garantía: 1 año servicio de recogida o con transporte.</p>
+                <a href="https://lenovocol.com/producto/thinkbook-14-2-en-1-4ta-gen-luna-grey-intel-2/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/IdeaPad-Pro-5i-16-9na-Gen-Arctic-Grey13.webp" alt="Imagen Producto 4">
+                <h3>IdeaPad Pro 5i 16″ 9na Gen – Arctic Grey</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ Ultra 7 155H (núcleos E de hasta 3,80 GHz núcleos P de hasta 4,80 GHz)
+                Sistema operativo: Windows 11 Home Single Language 64
+                Tarjeta gráfica: Gráficos Intel® Arc™ integrados
+                Memoria total: 32 GB LPDDR5X-7467MHz (soldado)
+                Unidad de disco primaria: 1 TB SSD M.2 2242 PCIe Gen4 TLC
+                Tipo de pantalla: 16″ WQXGA (2560 x 1600), IPS, antirreflectante, sin capacidad táctil, 100 % sRGB, 350 nits, 120 Hz, marco biselado fino
+                Cámara: 1080P FHD IR/RGB híbrida con obturador para privacidad y micrófono doble
+                Batería: Polímero de litio de 4 celdas 84 Wh
+                Fuente de alimentación: 100W
+                Características de seguridad: Sin lector de huellas dactilares
+                Dispositivo de Puntero: ClickPad
+                Keyboard: Retroiluminado blanco, gris tormenta – Español
+                Teclado: Retroiluminado blanco, gris tormenta – Español
+                Red inalámbrica: Wi-Fi 6E 2×2 AX & Bluetooth® 5.1 o superior
+                Garantía: 1 año PremiumCare
+                Color: Arctic Grey</p>
+                <a href="https://lenovocol.com/producto/ideapad-pro-5i-16-9na-gen-arctic-grey/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/IdeaPad-Slim-5i-14-8va-Gen-Abyss-Blue1-2.webp" alt="Imagen Producto 5">
+                <h3>IdeaPad Slim 5i 14 8va Gen – Abyss Blue</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ i7-13620H de 13ᵃ Generación (núcleos E de hasta 3,60 GHz núcleos P de hasta 4,90 GHz).
+                Sistema operativo: Windows 11 Home Single Language 64.
+                Tarjeta gráfica: Gráficos Intel® UHD integrados para procesadores Intel® de 13ᵃ Generación.
+                Memoria total: 16 GB LPDDR5-5200MHz (soldado).
+                Unidad de disco primaria: 512 GB SSD M.2 2242 PCIe Gen4 TLC.
+                Tipo de pantalla: 14″ WUXGA (1920 x 1200), IPS, antirreflectante, sin capacidad táctil, 45%NTSC, 300 nits, 60 Hz, marco biselado fino.
+                Garantía: 1 año PremiumCare.</p>
+                <a href="https://lenovocol.com/producto/ideapad-slim-5i-14-8va-gen-abyss-blue/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/05/82XN002SLM-01.webp" alt="Imagen Producto 6">
+                <h3>IdeaPad Slim 3 14 8va Gen – Abyss Blue</h3>
+                <p>Descripción:<p>
+                </p>Procesador: AMD Ryzen™ 3 7320U (2,40 GHz hasta 4,10 GHz).
+                Sistema operativo: Windows 11 Home Single Language 64.
+                Tarjeta gráfica: Gráficos AMD Radeon™ 610M integrados.
+                Memoria total: 8 GB LPDDR5-5500MHz (soldado).
+                Unidad de disco primaria: 512 GB SSD M.2 2242 PCIe TLC.
+                Tipo de pantalla: 14″ FHD (1920 x 1080), TN, antirreflectante, sin capacidad táctil, 45%NTSC, 250 nits, 60 Hz, marco biselado fino.
+                Cámara: HD de 720P con obturador para privacidad y micrófono de matriz doble.
+                Batería: Polímero de litio de 3 celdas 47 Wh.
+                Fuente de alimentación: 65W.
+                Características de seguridad: Sin lector de huellas dactilares.
+                Dispositivo de Puntero: ClickPad.
+                Keyboard: gris – Español (LA).
+                Teclado: gris – Español (LA).
+                Red inalámbrica: Wi-Fi 6 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía: 1 año PremiumCare.
+                Color: Abyss Blue.</p>
+                <a href="https://lenovocol.com/producto/ideapad-slim-3-14-8va-gen-abyss-blue/" class="btn">Detalles</a>
+            </div>
+        </section>
+        <section class="cards-container">
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/ThinkCentre-M70q-3ra-Gen-Tiny-Intel1-3.webp" alt="Imagen Producto 7">
+                <h3>ThinkCentre M70q 3er Gen – Raven Black</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ i5-12400T de 12ᵃ Generación (núcleos P de 1,80 GHz hasta 4,20 GHz).
+                Sistema operativo: Windows 11 Pro 64.
+                Tarjeta gráfica: Gráficos Intel® UHD 730 integrados.
+                Memoria total: 16 GB DDR4-3200MHz (SODIMM) – (2 x 8 GB).
+                Unidad de disco primaria: 512 GB SSD M.2 2280 PCIe Gen4 TLC Opal.
+                Optical Drive: Sin unidad óptica.
+                Fuente de alimentación: 135W.
+                Dispositivo de Puntero: Mouse óptico USB.
+                Teclado: USB, Calliope, Black – Spanish (LA).
+                WiFi Wireless LAN Adapters: Intel® Wi-Fi 6 AX201 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía: 3 años.
+                Color: Raven Black.</p>
+                <a href="https://lenovocol.com/producto/thinkcentre-m70q-3er-gen-raven-black/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/05/11SY004DLS-03.webp" alt="Imagen Producto 8">
+                <h3>ThinkCentre Neo 50s (Intel)</h3>
+                <p>Descripción:<p>
+                </p>Sistemas de sobremesa empresariales de 7,4 l que ahorran espacio. Potente, segura y eficiente energéticamente. Aumenta la productividad y la colaboración.
+                Procesador: Intel® Core™ i7-12700 de 12ᵃ Generación (núcleos E de hasta 3,60 GHz núcleos P de hasta 4,80 GHz).
+                Sistema operativo: Windows 11 Pro 64.
+                Tarjeta gráfica: Gráficos Intel® UHD 770 integrados.
+                Memoria total: 16 GB DDR4-3200MHz (UDIMM) – (2 x 8 GB).
+                Unidad de disco primaria: 512 GB SSD M.2 2280 PCIe Gen4 TLC Opal.
+                Tipo de pantalla: No aplica.
+                Optical Drive: Sin unidad óptica.
+                Fuente de alimentación: 260W.
+                Dispositivo de Puntero: Mouse óptico USB.
+                Teclado: USB, Calliope, Black – Español (LA).
+                WiFi Wireless LAN Adapters: Intel® Wi-Fi 6 AX201 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía: 1 año.
+                Color: Black.</p>
+                <a href="https://lenovocol.com/producto/thinkcentre-neo-50s-intel/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/05/83DE003XLM-02.webp" alt="Imagen Producto 9">
+                <h3>Legion Pro 7i 16″ 9na Gen – Eclipse Black</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Intel® Core™ i9-14900HX de 14ᵃ Generación (núcleos E de hasta 4,10 GHz núcleos P de hasta 5,80 GHz).
+                Sistema operativo: Windows 11 Home Single Language 64.
+                Tarjeta gráfica: GPU para equipo portátil NVIDIA® GeForce RTX™ 4080 12 GB GDDR6.
+                Memoria total: 32 GB DDR5-5600MHz (SODIMM) – (2 x 16 GB).
+                Unidad de disco primaria: 1 TB SSD M.2 2280 PCIe Gen4 TLC.
+                Tipo de pantalla: 16″ WQXGA (2560 x 1600), IPS, antirreflectante, sin capacidad táctil, HDR 400, 100%DCI-P3, 500 nits, 240 Hz, luz azul baja.
+                Cámara: 1080P FHD con micrófono doble y obturador para privacidad electrónico.
+                Batería: Polímero de litio de 4 celdas 99,9 Wh.
+                Fuente de alimentación: 330W.
+                Características de seguridad: Sin lector de huellas dactilares.
+                Dispositivo de Puntero: ClickPad.
+                Keyboard: Per-Key RGB Retroiluminado, negro – Español.
+                Teclado: Per-Key RGB Retroiluminado, negro – Español.
+                Red inalámbrica: Killer Wi-Fi 6E 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía: 1 año servicio de recogida o con transporte.
+                Color: Eclipse Black.</p>
+                <a href="https://lenovocol.com/producto/legion-pro-7i-16-9na-gen-eclipse-black/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/05/Servidor-Lenovo-ThinkSystem-SR780a-V3.webp" alt="Imagen Producto 10">
+                <h3>Servidor Lenovo ThinkSystem SR780a V3</h3>
+                <p>Descripción:<p>
+                </p>Factor de forma: Bastidor 5U.
+                Procesadores: 2 procesadores Intel® Xeon® Scalable de quinta generación, hasta 350 W.
+                Memoria: Admite 8 GPU de alto rendimiento - 8 GPU NVIDIA HGX™ H100/H200/B200 con interconexiones NVLink a 900 GB/s.
+                Ampliación de E/S: Hasta 10 adaptadores PCIe Gen5 x16 FHHL - 8 frontales conectados a switch PCIe para conectividad con GPU - 2 posteriores conectados directamente a las CPU.
+                Almacenamiento: Hasta 16 unidades SSD NVMe «hot-swap» U.3 - Hasta 2 M.2 para arranque (RAID mediante VROC).
+                Consumo: Hasta 8 fuentes de alimentación «hot-swap» con redundancia total N+N.
+                Refrigeración: Refrigeración líquida directa para CPU, GPU y switches NVLink - Solución de refrigeración por aire con N+1 ventiladores «hot swap» para el resto del sistema.
+                Gestión: XClarity Controller2 (XCC2), que proporciona funciones avanzadas de control de procesador/servicio, monitorización y alerta. El XCC2 consolida la funcionalidad del procesador en servicio, súper E/S, controlador de vídeo y presencia remota en un mismo chip en la placa del sistema del servidor.
+                Compatibilidad con sistemas operativos:	RHEL, Ubuntu, Alma Linux, Rocky Linux, ESXi.</p>
+                <a href="https://lenovocol.com/producto/servidor-lenovo-thinksystem-sr780a-v3/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/05/83E1003CLM-02.webp" alt="Imagen Producto 11">
+                <h3>Legion Go 8.8″ – Shadow Black</h3>
+                <p>Descripción:<p>
+                </p>Procesador: Procesador AMD Ryzen™ Z1 Extreme (3,30 GHz hasta 5,10 GHz).
+                Sistema operativo: Windows 11 Home Single Language 64.
+                Tarjeta gráfica: Gráficos AMD Radeon™ integrados.
+                Memoria total: 16 GB LPDDR5X-7500MHz (soldado).
+                Unidad de disco primaria: 1 TB SSD M.2 2242 PCIe Gen4 TLC.
+                Tipo de pantalla: 8,8″ WQXGA (2560 x 1600), IPS, brillante, táctil, 97 % DCI-P3, 500 nits, 144 Hz.
+                Batería: Polímero de litio de 2 celdas 49,2 Wh.
+                Fuente de alimentación: 65W.
+                Pen: Controller L & R.
+                Características de seguridad: Sin lector de huellas dactilares.
+                Dispositivo de Puntero: Controller L & R (Shadow Black).
+                Red inalámbrica: Wi-Fi 6E 2×2 AX & Bluetooth® 5.1 o superior.
+                Garantía: 1 año servicio de recogida o con transporte.
+                Color: Shadow Black.</p>
+                <a href="https://lenovocol.com/producto/legion-go-8-8-shadow-black/" class="btn">Detalles</a>
+            </div>
+            <div class="card">
+                <img src="https://lenovocol.com/wp-content/uploads/2024/06/motog04azulsatinado-1-1.webp" alt="Imagen Producto 12">
+                <h3>Moto g04 128gb Azul Satinado</h3>
+                <p>Descripción:<p>
+                </p>Sistema Operativo: Android 14.
+                Memoria RAM: 4GB + 4GB* RAM BOOST.
+                Procesador: Unisoc T606 / 2*A75 1.6GHz , 6*A55 1.6GHz.
+                Almacenamiento interno: 128 GB.
+                Tamaño de batería: 5000 mAh.
+                Tamaño de pantalla: 6.6”.
+                Resolución: 1600 x 720 HD+, 90Hz.
+                Tecnología de la pantalla: IPS.
+                Dimensiones: Ancho 74.53 mm Largo 163.49 mm Profundidad 7.99 mm.
+                Peso: 178.8 g.
+                Cámara frontal (Selfie): 5 MP.
+                Cámara trasera: 16 MP.
+                Sistema de Audio: Dolby Atmos.
+                Conector de audifonos alambricos: Sí.
+                Bluetooth: BT 5.0.
+                Wi-Fi: 2.4 / 5 GHz / 802.11 a/b/g/n/ac.
+                Tarjeta SIM: Nano SíM (4FF).
+                Redes: 2G/3G/4G VoLTE.
+                Control por voz: Sí.</p>
+                <a href="https://lenovocol.com/producto/moto-g04-128gb-azul-satinado/" class="btn">Detalles</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Visita el sitio oficial de <a href="https://lenovocol.com/" class="link" target="_blank" rel="noopener noreferrer">Lenovo</a> para más información.</p>
+        <p>&copy; 2024 Lenovo. Daseb Partner.</p>
+        <div class="social-media">
+            <a href="https://www.facebook.com/LenovoCO/" target="_blank">Facebook</a>
+            <a href="https://www.instagram.com/lenovocolombia/" target="_blank">Instagram</a>
+            <a href="https://x.com/LenovoLatam" target="_blank">X</a>
+            <a href="https://www.linkedin.com/company/lenovo/" target="_blank">Linkedin</a>
+            <a href="https://www.youtube.com/user/LenovoLatam" target="_blank">YouTube</a>
+        </div>
+    </footer>
+</body>
+</html>
